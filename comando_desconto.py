@@ -11,4 +11,6 @@ df_product.loc[df_product.Categoria == "Secos", 'Valor_Kg'] -= df_product.loc[df
 print(df_product)
 
 
-df_product.to_csv('C:\Repositórios Git\ProjetoETL\Tabelas_de_precificacao\Precificacao_depois_do_desconto.csv', index=False)
+df_product.to_csv('C:\Repositórios Git\ProjetoETL\Tabelas_de_precificacao\Precificacao_depois_do_desconto.csv', sep = ';', index=False)
+
+
